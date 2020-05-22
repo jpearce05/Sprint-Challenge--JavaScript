@@ -25,8 +25,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+- forEach iterates through the list and does not create a new Array.  Map make a new Array and then the data can be manipulated
 
 2. Explain the difference between a callback and a higher order function.
+- 
 
 3. What is closure?
 
