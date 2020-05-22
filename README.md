@@ -28,13 +28,22 @@ Edit this document to include your answers after each question. Make sure to lea
 - forEach iterates through the list and does not create a new Array.  Map make a new Array and then the data can be manipulated
 
 2. Explain the difference between a callback and a higher order function.
-- 
+- a higher order function takes callback functions as paramters.
+- a callback is funciton that is passed to another function as paramters
 
 3. What is closure?
+- Closures give us the abililty to put functions together
+- It't the ability to access Parent functions as a child
+- It can be passed down but not back up
 
 4. Describe the four rules of the 'this' keyword.
+- for a simple function call, in non-strict mode this will default to the global object
+- Implicit binding - this points to the object on which the function is called (what’s to the left of the period when the function is called).
+-  Explicit binding - We can explicitly set this to point to a certain value using call, apply or bind.
+-  New binding - Using the new keyword constructs a new object, and this points it.
 
 5. Why do we need super() in an extended class?
+-  The super keyword refers to the parent class. It is used to call the constructor of the parent class and to access the parent's properties and methods.
 
 ### Task 1 - Project Set up
 
