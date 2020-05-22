@@ -55,7 +55,7 @@ The zoos want to display both the scientific name and the animal name in front o
 const displayNames = [];
 
 zooAnimals.forEach(function (item) {
- return displayNames.push(`Name: ${item.animal_name}, Scientific: ${item.scientific_name}`);
+  return displayNames.push(`Name: ${item.animal_name}, Scientific: ${item.scientific_name}`);
 
 });
 
@@ -129,9 +129,9 @@ The zoos need to know their total animal population across the United States. Fi
 
 
 // Version 1
-const populationTotal = zooAnimals.reduce(function(accumulator, item) {
+let populationTotal = zooAnimals.reduce(function (accumulator, item) {
   return accumulator + item.population;
-},0);
+}, 0);
 
 console.log(populationTotal);
 
@@ -146,8 +146,8 @@ console.log(populationTotal);
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-function consume(a,b,cb) {
-  return cb(a,b);
+function consume(a, b, cb) {
+  return cb(a, b);
 }
 
 
